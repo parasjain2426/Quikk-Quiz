@@ -1,0 +1,73 @@
+.MainScreen{
+    width: 500px;
+    height: max-content;
+    margin: 10px auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #00308F;
+    color: black;
+    background-color: #89CFF0;
+    margin: 10px;
+}
+
+button:hover{
+    box-shadow: 0 8px 6px -6px black;
+}
+
+input{
+    padding: 10px;
+    width: 150px;
+}
+
+.QuizScreen{
+    display: none;
+    width: 500px;
+    height: max-content;
+    text-align: center;
+    margin: 10px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.SaveUserScreen{
+    display: none;
+    width: 500px;
+    height: max-content;
+    text-align: center;
+    margin: 10px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.HighScoreScreen{
+    display: none;
+    width: 500px;
+    height: max-content;
+    text-align: center;
+    margin: 10px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px black;
+}
